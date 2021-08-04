@@ -1,92 +1,143 @@
-.main {
-    background-color: white;
-    height: 100%;
-    &--header {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-        img {
-            width: 100%;
-        }
-        .logo {
-            width: 190px;
-            margin-top: -160px;
-            margin-bottom: 140px;
-        }
-    }
-    .main--body--imput {
-        color: #06467F;
-        font-family: Arial;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 18px;
-    }
-    .lugar {
-        background: #28B9F0;
-        opacity: 0.2;
-        border-radius: 0px 9px 0px 0px;
-        border: 1px solid #06467F;
-        background: #28B9F0;
-        opacity: 0.2;
-        border-radius: 3px 9px 3px 3px;
-    }
-    &--body {
-        padding: 0px 40px;
-    }
-    .title {
-        font-family: Arial;
-        font-style: normal;
-        font-weight: bold;
-        color: #28B9F0;
-        text-shadow: rgb(2, 11, 20) 0px 1px 0px;
-    }
-    .blue {
-        font-family: Arial;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 18px;
-        color: #06467F;
-        text-shadow: rgb(37, 148, 156) 0px 1px 0px;
-    }
-    .name {
-        font-family: Arial;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 18px;
-        color: #06467F;
-        text-shadow: rgb(37, 148, 156) 0px 1px 0px;
-    }
-}
-
-.entrar {
-    position: absolute;
-    width: 305px;
-    height: 62px;
-    left: calc(50% - 305px/2);
-    top: calc(50% - 62px/2 + 200px);
-    background: #1E99D5;
-    border-radius: 3%;
-    border: 4px solid #D4F1FC;
-    box-sizing: border-box;
-    border-radius: 11px;
-}
-
-.rodape {
-    position: absolute;
-    width: 306px;
-    height: 18px;
-    left: calc(50% - 306px/2 - 0.5px);
-    top: calc(50% - 18px/2 + 314px);
-    font-family: Arial;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 18px;
-    text-align: center;
-    text-decoration-line: underline;
-    color: #06467F;
-}
+                .main {
+                    background-color: white;
+                    height: 100%;
+                    &--header {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        width: 100%;
+                        img {
+                            width: 100%;
+                        }
+                        .logo {
+                            width: 190px;
+                            margin-top: -160px;
+                            margin-bottom: 140px;
+                        }
+                    }
+                    .main--body--imput {
+                        color: #06467F;
+                        font-family: Arial;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 18px;
+                    }
+                    .lugar {
+                        position: absolute;
+                        width: 289px;
+                        height: 32px;
+                        left: calc(50% - 289px/2 + 8px);
+                        top: calc(50% - 32px/2 + 97px);
+                        background: #28B9F0;
+                        opacity: 0.2;
+                        border-radius: 0px 9px 0px 0px;
+                    }
+                    .lugar2 {
+                        position: absolute;
+                        width: 289px;
+                        height: 32px;
+                        left: calc(50% - 289px/2 + 8px);
+                        top: calc(50% - 32px/2 + 173px);
+                        background: #28B9F0;
+                        opacity: 0.2;
+                        border-radius: 3px 9px 3px 3px;
+                    }
+                    &--body {
+                        padding: 0px 40px;
+                    }
+                    .title {
+                        position: absolute;
+                        width: 306px;
+                        height: 58px;
+                        left: calc(50% - 306px/2 - 0.5px);
+                        top: calc(50% - 58px/2 - 58px);
+                        font-family: Arial;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 25px;
+                        line-height: 29px;
+                        color: #28B9F0;
+                    }
+                    .blue {
+                        position: absolute;
+                        width: 306px;
+                        height: 36px;
+                        left: calc(50% - 306px/2 - 0.5px);
+                        top: calc(50% - 36px/2 - 3px);
+                        font-family: Arial;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 18px;
+                        color: #06467F;
+                    }
+                    .name {
+                        position: absolute;
+                        width: 306px;
+                        height: 18px;
+                        left: calc(50% - 306px/2 - 0.5px);
+                        top: calc(50% - 18px/2 + 60px);
+                        font-family: Arial;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 18px;
+                        color: #06467F;
+                    }
+                    .name2 {
+                        position: absolute;
+                        width: 306px;
+                        height: 18px;
+                        left: calc(50% - 306px/2 - 0.5px);
+                        top: calc(50% - 18px/2 + 139px);
+                        font-family: Arial;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 18px;
+                        color: #06467F;
+                    }
+                    .entrar {
+                        position: absolute;
+                        width: 306px;
+                        height: 23px;
+                        left: calc(50% - 306px/2 - 0.5px);
+                        top: calc(50% - 23px/2 + 250.5px);
+                        font-family: Arial;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 20px;
+                        line-height: 23px;
+                        /* identical to box height */
+                        text-align: center;
+                        text-transform: capitalize;
+                        color: #FFFFFF;
+                    }
+                    .entrar1 {
+                        position: absolute;
+                        width: 305px;
+                        height: 62px;
+                        left: calc(50% - 305px/2);
+                        top: calc(50% - 62px/2 + 250px);
+                        background: #1E99D5;
+                        border: 4px solid #D4F1FC;
+                        box-sizing: border-box;
+                        border-radius: 11px;
+                    }
+                    .rodape {
+                        position: absolute;
+                        width: 306px;
+                        height: 18px;
+                        left: calc(50% - 306px/2 - 0.5px);
+                        top: calc(50% - 18px/2 + 314px);
+                        font-family: Arial;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 18px;
+                        text-align: center;
+                        text-decoration-line: underline;
+                        color: #06467F;
+                    }
+                }
