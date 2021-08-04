@@ -15,6 +15,23 @@
             margin-bottom: 140px;
         }
     }
+    .main--body--imput {
+        color: #06467F;
+        font-family: Arial;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .lugar {
+        background: #28B9F0;
+        opacity: 0.2;
+        border-radius: 0px 9px 0px 0px;
+        border: 1px solid #06467F;
+        background: #28B9F0;
+        opacity: 0.2;
+        border-radius: 3px 9px 3px 3px;
+    }
     &--body {
         padding: 0px 40px;
     }
@@ -33,18 +50,31 @@
     }
 }
 
-.button {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100px;
-    border-radius: 9px;
-    color: rgb(255, 255, 255);
+.entrar {
+    position: absolute;
+    width: 305px;
+    height: 62px;
+    left: calc(50% - 305px/2);
+    top: calc(50% - 62px/2 + 200px);
+    background: #1E99D5;
+    border-radius: 3%;
+    border: 4px solid #D4F1FC;
+    box-sizing: border-box;
+    border-radius: 11px;
 }
 
-.borda {
-    position: relative;
-    width: 14px;
-    background: #06467F;
-    border-radius: 9px;
+.rodape {
+    position: absolute;
+    width: 306px;
+    height: 18px;
+    left: calc(50% - 306px/2 - 0.5px);
+    top: calc(50% - 18px/2 + 314px);
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #06467F;
 }
