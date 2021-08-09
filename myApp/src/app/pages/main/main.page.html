@@ -1,5 +1,6 @@
 <div class="main">
     <div class="main--header">
+        <router-outlet></router-outlet>
         <img src="../../../assets/images/fundoazul.png" alt="facens">
         <img class="logo" src="../../../assets/images/facens.png" alt="logo">
     </div>
@@ -12,14 +13,15 @@
             <div class='main--body--imput'>
                 <label class="name" for="username">Usuário</label><br>
                 <input class="lugar" type="text" id="username" name="username">
-            </div>
-            <div class='main--body--imput'>
-                <label class="name2" for="pass">Senha</label><br>
-                <input class="lugar2" type="password" id="pass" name="password" minlength="8" required>
-            </div>
-            <div class="entrar1">
-                <input class="entrar" type="submit" value="ENTRAR">
-            </div>
+                <div class="main--footer--icon"></div>
+                <ion-icon src="../../assets/images/"></ion-icon>
+                <div class='main--body--imput'>
+                    <label class="name2" for="pass">Senha</label><br>
+                    <input class="lugar2" type="password" id="pass" name="password" minlength="8" required>
+                </div>
+                <div class="entrar1">
+                    <input class="entrar" type="submit" value="ENTRAR">
+                </div>
         </section>
         <div>
             <footer class="rodape"> <u>Criar uma conta</u> </footer>
